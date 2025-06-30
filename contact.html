@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Module 1 HTML Assignment - Contact</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<header class="site-header">
+    <a href="index.html" class="site-logo">Golf Gear</a>
+    <nav class="navbar">
+    <ul>
+        <li class="nav-item"><a href="index.html">Home</a></li>
+        <li class="nav-item"><a href="about.html">About</a></li>
+        <li class="nav-item"><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+</header>
+<main class="site-main">
+    <section class="contact">
+        <h2>Contact Us</h2>
+            <p>Please, fill out the customer information below.</p>
+</section>
+<form action="#" method="post">
+    <fieldset>
+    <legend>Customer Information</legend>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required placeholder="Enter your name">
+    <br><br>
+
+    <label for="user-email">Email:</label>
+    <input type="email" id="user-email" name="user-email" required placeholder="Enter your email">
+    <br><br>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required placeholder="Write your message"></textarea>
+    <br><br>
+    <hr>
+<!-- Bonus Radio Button -->
+    <P>Which search engine was able to help you find our site?</P>
+<div>
+    <input type="radio" id="Google" name="Search Engine" value="Google">
+    <label for="Google" style="margin-right: 20px;">Google</label>
+
+    <input type="radio" id="Bing" name="Search Engine" value="Bing">
+    <label for="Bing">Bing</label>
+    <br><br>
+    <input type="submit" value="submit">
+    </fieldset>
+    <!-- Bonus Radio Button -->
+</div>
+</form>
+</main>
+
+<footer class="site-footer">
+    <p>&copy; 2025 Golf Gear. All Rights Reserved.</p>
+    <nav>
+        <a href="privacy">Privacy Policy</a> <a href="#terms">Terms of Service</a>
+    </nav>
+</footer>
+</body>
+
+</html>
+

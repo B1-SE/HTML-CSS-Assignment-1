@@ -1,0 +1,107 @@
+body {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* NAVBAR STYLING*/
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: royalblue;
+}
+
+.site-logo {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.navbar ul li {
+  margin-right: 15px;
+}
+
+/* Main Content Styling */
+.site-main {
+  padding: 20px;
+  padding-bottom: 80px;
+  padding-top: 40px;
+}
+
+.welcome {
+  background-color: rgb(50, 90, 100);
+  padding: 40px 20px;
+  color: white;
+  border-radius: 25px;
+  text-align: center;
+}
+
+section {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  background-color: rgb(0, 166, 255);
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+  margin: auto;
+  margin-top: 20px;
+  width: fit-content;
+}
+
+
+table,
+th,
+td {
+  border: 1px solid;
+}
+
+table {
+  border-collapse: collapse; /* Optional: Collapse table borders */
+  justify-content: center;
+  margin: auto; /* Center the table */
+  margin-bottom: 20px;
+}
+
+th {
+  background-color: #f2f2f2; /* Light gray background */
+  font-weight: bold; /* Bold text */
+  text-align: left; /* Align text to the left */
+  padding: 8px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a border */
+}
+
+td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.site-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 0px;
+}
